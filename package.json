@@ -9,6 +9,7 @@
         "type": "git",
         "url": "https://github.com/wdstar/vscode-screwdriver.git"
     },
+	"license": "Apache-2.0",
     "engines": {
         "vscode": "^1.10.0"
     },

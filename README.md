@@ -1,39 +1,32 @@
-# vscode-screwdriver README
+# Screwdriver Pipeline and Template Editor for Visual Studio Code
 
-This is the README for your extension "vscode-screwdriver". After writing up a brief description, we recommend including the following sections.
+This extension provides YAML validation and content assist (snippets) for editing [Screwdriver](http://screwdriver.cd/) Pipeline and Template configuration files.
+
+## Usage
+
+The Screwdriver editor automatically is activated when the name of the YAML file you are editing 
+follows a certain pattern:
+
+  - `**/*screwdriver*.yaml` : activates support for editing pipelines
+  - `**/*template*.yaml` : activates support for editing templates.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+### Content Assist
 
-For example if there is an image subfolder under your extension project workspace:
+Type `Ctrl + Space` to popup a list of all symbols in your current Pipeline/Template file.
 
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+![Content Assist](https://github.com/wdstar/vscode-screwdriver/raw/master/images/content-assist.png)
 
 ## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+None.
 
 ## Extension Settings
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
+None.
 
 ## Release Notes
-
-Users appreciate release notes as you update your extension.
 
 ### 0.0.1
 
@@ -41,21 +34,5 @@ Initial release of vscode-screwdriver
 
 ## License
 
+* Apache-2.0
 * Icon from https://commons.wikimedia.org/wiki/File:Icon_tools.svg
-
------------------------------------------------------------------------------------------------------------
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on OSX or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on OSX or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (OSX) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
