@@ -53,6 +53,15 @@
             "\t$1"
         ]
     },
+    "Template path": {
+        "description": "Template path (./path/to/template.yaml)",
+        "prefix": "SD_TEMPLATE_PATH:",
+        "body": [
+            "SD_TEMPLATE_PATH: $1"
+        ]
+    },
+
+
     "Settings map block": {
         "description": "Settings map block",
         "prefix": "settings:",
@@ -74,22 +83,6 @@
         "prefix": "environment:",
         "body": [
             "environment:",
-            "\t$1"
-        ]
-    },
-    "Job block": {
-        "description": "Job block",
-        "prefix": "jobs:",
-        "body": [
-            "jobs:",
-            "\t$1"
-        ]
-    },
-    "main job": {
-        "description": "main job",
-        "prefix": "main:",
-        "body": [
-            "main:",
             "\t$1"
         ]
     },
@@ -135,13 +128,6 @@
         "prefix": "SCM_ACCESS_TOKEN",
         "body": [
             "SCM_ACCESS_TOKEN"
-        ]
-    },
-    "Template path": {
-        "description": "Template path (./path/to/template.yaml)",
-        "prefix": "SD_TEMPLATE_PATH:",
-        "body": [
-            "SD_TEMPLATE_PATH: $1"
         ]
     }
 }

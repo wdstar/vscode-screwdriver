@@ -15,6 +15,39 @@
             "\t$1"
         ]
     },
+    "Job block": {
+        "description": "Job block",
+        "prefix": "jobs:",
+        "body": [
+            "jobs:",
+            "\t$1"
+        ]
+    },
+    "main job": {
+        "description": "main job",
+        "prefix": "main:",
+        "body": [
+            "main:",
+            "\t$1"
+        ]
+    },
+    "publish job": {
+        "description": "publish job",
+        "prefix": "publish:",
+        "body": [
+            "publish:",
+            "\t$1"
+        ]
+    },
+    "Template name": {
+        "description": "Template name",
+        "prefix": "template:",
+        "body": [
+            "template: $1"
+        ]
+    },
+
+
     "Settings map block": {
         "description": "Settings map block",
         "prefix": "settings:",
@@ -37,29 +70,6 @@
         "body": [
             "environment:",
             "\t$1"
-        ]
-    },
-    "Job block": {
-        "description": "Job block",
-        "prefix": "jobs:",
-        "body": [
-            "jobs:",
-            "\t$1"
-        ]
-    },
-    "main job": {
-        "description": "main job",
-        "prefix": "main:",
-        "body": [
-            "main:",
-            "\t$1"
-        ]
-    },
-    "Template name": {
-        "description": "Template name",
-        "prefix": "template:",
-        "body": [
-            "template: [$1]"
         ]
     },
     "Requires conditions": {

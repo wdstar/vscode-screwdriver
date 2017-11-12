@@ -3,7 +3,7 @@
     "displayName": "Screwdriver CD Pipeline Editor",
     "description": "Provides content assist for Screwdriver CD pipeline configuration yaml files.",
     "icon": "icon.png",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "wdstar",
     "repository": {
         "type": "git",
