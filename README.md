@@ -39,6 +39,10 @@ Users appreciate release notes as you update your extension.
 
 Initial release of vscode-screwdriver
 
+## License
+
+* Icon from https://commons.wikimedia.org/wiki/File:Icon_tools.svg
+
 -----------------------------------------------------------------------------------------------------------
 
 ## Working with Markdown

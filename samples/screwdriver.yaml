@@ -1,0 +1,22 @@
+---
+# Workflow list definition
+workflow:
+    - second_job
+# Shared definition block
+shared:
+    # Source: https://hub.docker.com/r/library/buildpack-deps/
+    image: buildpack-deps
+# Job definition block
+# "main" is a default job that all pipelines have
+jobs:
+    main:
+        # Steps definition block.
+        steps:
+            - export: export GREETING="Hello, world!"
+            - hello: echo $GREETING
+            - set-metadata: meta set example.coverage 99.95
+    second_job:
+        steps:
+            - make_target: make greetings
+            - get-metadata: meta get example
+            - run_arbitrary_script: ./my_script.sh

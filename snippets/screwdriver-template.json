@@ -1,0 +1,147 @@
+{
+    "Template skelton": {
+        "description": "Template skelton",
+        "prefix": "name:",
+        "body": [
+            "name: $1",
+            "version: $2",
+            "description: $3",
+            "maintainer: $4",
+            "config:",
+            "\timage: $5",
+            "\tsteps:",
+            "\t\t- ",
+            "\tenvironment:",
+            "\t\t",
+            "\tsecrets:",
+            "\t\t- "
+        ]
+    },
+    "Template name": {
+        "description": "Template name",
+        "prefix": "name:",
+        "body": [
+            "name: $1"
+        ]
+    },
+    "Template version": {
+        "description": "Template version",
+        "prefix": "version:",
+        "body": [
+            "version: '$1'"
+        ]
+    },
+    "Template description": {
+        "description": "Template description",
+        "prefix": "description",
+        "body": [
+            "description: $1"
+        ]
+    },
+    "Template maintainer": {
+        "description": "Template maintainer",
+        "prefix": "maintainer",
+        "body": [
+            "maintainer: $1"
+        ]
+    },
+    "Configuration block": {
+        "description": "Configuration block",
+        "prefix": "config:",
+        "body": [
+            "config:",
+            "\t$1"
+        ]
+    },
+    "Settings map block": {
+        "description": "Settings map block",
+        "prefix": "settings:",
+        "body": [
+            "settings:",
+            "\t$1"
+        ]
+    },
+    "Annotations map block": {
+        "description": "Annotations map block",
+        "prefix": "annotations:",
+        "body": [
+            "annotations:",
+            "\t$1"
+        ]
+    },
+    "Environment map block": {
+        "description": "Environment map block",
+        "prefix": "environment:",
+        "body": [
+            "environment:",
+            "\t$1"
+        ]
+    },
+    "Job block": {
+        "description": "Job block",
+        "prefix": "jobs:",
+        "body": [
+            "jobs:",
+            "\t$1"
+        ]
+    },
+    "main job": {
+        "description": "main job",
+        "prefix": "main:",
+        "body": [
+            "main:",
+            "\t$1"
+        ]
+    },
+    "Requires conditions": {
+        "description": "Requires condition",
+        "prefix": "requires:",
+        "body": [
+            "requires: [$1]"
+        ]
+    },
+    "Build image URL": {
+        "description": "Build image URL",
+        "prefix": "image:",
+        "body": [
+            "image: $1"
+        ]
+    },
+    "Step list block": {
+        "description": "Step list block",
+        "prefix": "steps:",
+        "body": [
+            "steps:",
+            "\t- $1"
+        ]
+    },
+    "Secret list": {
+        "description": "Secret list block",
+        "prefix": "secrets:",
+        "body": [
+            "secrets:",
+            "\t- $1"
+        ]
+    },
+    "SCM user name": {
+        "description": "SCM user name secret",
+        "prefix": "SCM_USERNAME",
+        "body": [
+            "SCM_USERNAME"
+        ]
+    },
+    "SCM access token": {
+        "description": "SCM access token secret",
+        "prefix": "SCM_ACCESS_TOKEN",
+        "body": [
+            "SCM_ACCESS_TOKEN"
+        ]
+    },
+    "Template path": {
+        "description": "Template path (./path/to/template.yaml)",
+        "prefix": "SD_TEMPLATE_PATH:",
+        "body": [
+            "SD_TEMPLATE_PATH: $1"
+        ]
+    }
+}

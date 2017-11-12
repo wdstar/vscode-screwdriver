@@ -2,6 +2,7 @@
     "name": "vscode-screwdriver",
     "displayName": "Screwdriver CD Pipeline Editor",
     "description": "Provides content assist for Screwdriver CD pipeline configuration yaml files.",
+    "icon": "icon.png",
     "version": "0.0.1",
     "publisher": "wdstar",
     "repository": {
@@ -12,7 +13,8 @@
         "vscode": "^1.10.0"
     },
     "categories": [
-        "Languages"
+        "Languages",
+        "Snippets"
     ],
     "keywords": [
         "yaml",
@@ -20,19 +22,47 @@
         "screwdriver.yaml"
     ],
     "contributes": {
-        "languages": [{
-            "id": "screwdriver-pipeline-yaml",
-            "aliases": ["Screwdriver Pipeline", "screwdriver-pipeline-yaml"],
-            "filenamePatterns": [
-                "*screwdriver*.yaml",
-                "*screwdriver*.yml"
-            ],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "screwdriver-pipeline-yaml",
-            "scopeName": "source.yaml",
-            "path": "./syntaxes/yaml.tmLanguage"
-        }]
+        "languages": [
+            {
+                "id": "screwdriver-pipeline",
+                "aliases": ["Screwdriver Pipeline"],
+                "filenamePatterns": [
+                    "*screwdriver*.yaml",
+                    "*screwdriver*.yml"
+                ],
+                "configuration": "./language-configuration.json"
+            },
+            {
+                "id": "screwdriver-template",
+                "aliases": ["Screwdriver Template"],
+                "filenamePatterns": [
+                    "*template*.yaml",
+                    "*template*.yml"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "screwdriver-pipeline",
+                "scopeName": "source.yaml",
+                "path": "./syntaxes/yaml.tmLanguage"
+            },
+            {
+                "language": "screwdriver-template",
+                "scopeName": "source.yaml",
+                "path": "./syntaxes/yaml.tmLanguage"
+            }
+        ],
+        "snippets": [
+            {
+                "language": "screwdriver-pipeline",
+                "path": "./snippets/screwdriver-pipeline.json"
+            },
+            {
+                "language": "screwdriver-template",
+                "path": "./snippets/screwdriver-template.json"
+            }
+        ]
     }
 }

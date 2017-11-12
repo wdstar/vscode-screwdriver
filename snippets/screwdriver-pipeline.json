@@ -1,0 +1,109 @@
+{
+    "Workflow list block": {
+        "description": "Workflow list block",
+        "prefix": "workflow:",
+        "body": [
+            "workflow:",
+            "\t- $1"
+        ]
+    },
+    "Shared map block": {
+        "description": "Shared map block",
+        "prefix": "shared:",
+        "body": [
+            "shared:",
+            "\t$1"
+        ]
+    },
+    "Settings map block": {
+        "description": "Settings map block",
+        "prefix": "settings:",
+        "body": [
+            "settings:",
+            "\t$1"
+        ]
+    },
+    "Annotations map block": {
+        "description": "Annotations map block",
+        "prefix": "annotations:",
+        "body": [
+            "annotations:",
+            "\t$1"
+        ]
+    },
+    "Environment map block": {
+        "description": "Environment map block",
+        "prefix": "environment:",
+        "body": [
+            "environment:",
+            "\t$1"
+        ]
+    },
+    "Job block": {
+        "description": "Job block",
+        "prefix": "jobs:",
+        "body": [
+            "jobs:",
+            "\t$1"
+        ]
+    },
+    "main job": {
+        "description": "main job",
+        "prefix": "main:",
+        "body": [
+            "main:",
+            "\t$1"
+        ]
+    },
+    "Template name": {
+        "description": "Template name",
+        "prefix": "template:",
+        "body": [
+            "template: [$1]"
+        ]
+    },
+    "Requires conditions": {
+        "description": "Requires condition",
+        "prefix": "requires:",
+        "body": [
+            "requires: [$1]"
+        ]
+    },
+    "Build image URL": {
+        "description": "Build image URL",
+        "prefix": "image:",
+        "body": [
+            "image: $1"
+        ]
+    },
+    "Step list block": {
+        "description": "Step list block",
+        "prefix": "steps:",
+        "body": [
+            "steps:",
+            "\t- $1"
+        ]
+    },
+    "Secret list": {
+        "description": "Secret list block",
+        "prefix": "secrets:",
+        "body": [
+            "secrets:",
+            "\t- $1"
+        ]
+    },
+    "SCM user name": {
+        "description": "SCM user name secret",
+        "prefix": "SCM_USERNAME",
+        "body": [
+            "SCM_USERNAME"
+        ]
+    },
+    "SCM access token": {
+        "description": "SCM access token secret",
+        "prefix": "SCM_ACCESS_TOKEN",
+        "body": [
+            "SCM_ACCESS_TOKEN"
+        ]
+    }
+}
