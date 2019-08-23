@@ -1,5 +1,6 @@
 # Screwdriver Pipeline and Template Editor for Visual Studio Code
 [![Known Vulnerabilities](https://snyk.io//test/github/wdstar/vscode-screwdriver/badge.svg?targetFile=package.json)](https://snyk.io//test/github/wdstar/vscode-screwdriver?targetFile=package.json)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=wdstar_vscode-screwdriver&metric=alert_status)](https://sonarcloud.io/dashboard?id=wdstar_vscode-screwdriver)
 
 This extension provides YAML validation and content assist (snippets) for editing [Screwdriver](http://screwdriver.cd/) Pipeline and Template configuration files.
 
