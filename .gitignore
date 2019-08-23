@@ -2,3 +2,6 @@ node_modules
 .vsix
 *.vsix
 npm-debug.log*
+
+# SonarQube
+.scannerwork/
